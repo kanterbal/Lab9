@@ -53,7 +53,10 @@ namespace Ex1
             {
                 Console.WriteLine("Osibka! {0}", ex.Message);
             }
-            Console.ReadKey();
+            finally
+            {
+                Console.ReadKey();
+            }
         }
     }
 }
